@@ -50,42 +50,48 @@ class Carousel extends Component {
   render() {
     return (
       <>
-        <div className="swiper-container">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide">
-              <img className="d-block w-100" src={hongkong} alt="First slide" />
+        <div className={CarouselStyle.wrapper}>
+          <div className="swiper-container">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <img
+                  className="d-block w-100"
+                  src={hongkong}
+                  alt="First slide"
+                />
+              </div>
+              <div className="swiper-slide">
+                <img className="d-block w-100" src={marsh} alt="Second slide" />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  className="d-block w-100"
+                  src={mountainrange}
+                  alt="Third slide"
+                />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  className="d-block w-100"
+                  src={nightmoon}
+                  alt="Fourth slide"
+                />
+              </div>
+              <div className="swiper-slide">
+                <img className="d-block w-100" src={paris} alt="Fifth slide" />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  className="d-block w-100"
+                  src={rockybeach}
+                  alt="Sixth slide"
+                />
+              </div>
             </div>
-            <div className="swiper-slide">
-              <img className="d-block w-100" src={marsh} alt="Second slide" />
-            </div>
-            <div className="swiper-slide">
-              <img
-                className="d-block w-100"
-                src={mountainrange}
-                alt="Third slide"
-              />
-            </div>
-            <div className="swiper-slide">
-              <img
-                className="d-block w-100"
-                src={nightmoon}
-                alt="Fourth slide"
-              />
-            </div>
-            <div className="swiper-slide">
-              <img className="d-block w-100" src={paris} alt="Fifth slide" />
-            </div>
-            <div className="swiper-slide">
-              <img
-                className="d-block w-100"
-                src={rockybeach}
-                alt="Sixth slide"
-              />
-            </div>
+            <div className="swiper-pagination" />
+            <div className="swiper-button-prev" />
+            <div className="swiper-button-next" />
           </div>
-          <div className="swiper-pagination" />
-          <div className="swiper-button-prev" />
-          <div className="swiper-button-next" />
         </div>
       </>
     );
