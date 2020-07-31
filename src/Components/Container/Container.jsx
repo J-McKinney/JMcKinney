@@ -5,7 +5,7 @@ class Container extends Component {
   render() {
     return (
       <>
-        <div></div>
+        <div className={ContainerStyle.div}></div>
       </>
     );
   }
