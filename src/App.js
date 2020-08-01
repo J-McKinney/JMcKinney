@@ -23,9 +23,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <br />
+      {/*<br />*/}
       <Carousel />
-      <br />
+      {/*<br />*/}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
