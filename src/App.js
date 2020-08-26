@@ -3,6 +3,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Carousel from "./Components/Carousel/Carousel";
 import Footer from "./Components/Footer/Footer";
 import logo from "./logo.svg";
+// import Test from "./App.test";
 import "./App.css";
 
 function App() {
